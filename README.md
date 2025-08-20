@@ -1,12 +1,35 @@
-# React + Vite
+# 🤖 Chatbot Flow Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React + Vite + TailwindCSS + React Flow** project that allows users to visually build chatbot flows.  
+Nodes can be dragged onto the canvas, connected, and customized with messages.  
+This project was built as a frontend assignment and demonstrates skills in **state management, drag & drop, custom nodes, and flow validation**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+👉 [View Live Project](https://your-live-link-here.com)  
+*(Replace with your deployed Vercel/Netlify link)*
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- 🎨 **Drag & Drop** nodes onto the canvas
+- 🔗 **Connect nodes** with edges (only one outgoing edge per node)
+- ✏️ **Edit node text** in a side settings panel
+- 💾 **Save validation** (prevents multiple disconnected nodes)
+- 💡 **Persistent state** using `localStorage`
+- 📱 **Responsive layout** with TailwindCSS
+- ⚡ Built with **Vite** for fast development
+
+---
+
+## 🛠️ Tech Stack
+- **React 18**
+- **Vite**
+- **React Flow**
+- **TailwindCSS**
+- **LocalStorage** (for persistence)
+
+---
+
+## 📂 Project Structure
