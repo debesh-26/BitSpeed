@@ -33,3 +33,33 @@ This project was built as a frontend assignment and demonstrates skills in **sta
 ---
 
 ## 📂 Project Structure
+
+src/
+ ├─ components/
+ │   ├─ nodes/
+ │   │   └─ MessageNode.jsx     # Custom chatbot message node
+ │   ├─ panels/
+ │   │   ├─ NodesPanel.jsx      # Panel with draggable nodes
+ │   │   └─ SettingsPanel.jsx   # Node editing panel
+ │   ├─ builder/
+ │   │   └─ BuilderInner.jsx    # Main flow builder logic
+ │   └─ ui/
+ │       └─ Topbar.jsx          # Reusable top navigation bar
+ ├─ App.jsx                     # Wraps everything with ReactFlowProvider
+ ├─ index.css                   # Tailwind entry styles
+ └─ main.jsx                    # React entry point
+
+ 
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/yourusername/chatbot-flow-builder.git
+   cd chatbot-flow-builder
+2. **Install dependencies**
+    npm install
+
+3. **Run the development server**
+    npm run dev
