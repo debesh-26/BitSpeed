@@ -7,8 +7,8 @@ This project was built as a frontend assignment and demonstrates skills in **sta
 ---
 
 ## 🚀 Live Demo
-👉 [View Live Project](https://your-live-link-here.com)  
-*(Replace with your deployed Vercel/Netlify link)*
+👉 [View Live Project](https://bit-speed.vercel.app/)
+
 
 ---
 
